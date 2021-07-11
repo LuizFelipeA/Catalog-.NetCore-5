@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using Catalog.Dtos;
+using Catalog.Entities;
 using Catalog.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using static Catalog.Entities.item;
 
 namespace Catalog.Controllers
 {
@@ -10,21 +12,20 @@ namespace Catalog.Controllers
     [Route("api/[controller]")]
     public class ItemsController : ControllerBase
     {
-        private readonly InMemItemsRepository repository;
-
-        public ItemsController()
+        private readonly IItemsRepository repository;
+        public ItemsController(IItemsRepository repository)
         {
-            repository = new InMemItemsRepository();
+            this.repository = repository;
         }
 
         [HttpGet]
-        public IEnumerable<Item> GetItems()
+        public IEnumerable<ItemDto> GetItems()
         {
-            return repository.GetItems();
+            return repository.GetItems().Select(item => item.AsDto());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Item> GetItem(Guid id)
+        public ActionResult<ItemDto> GetItem(Guid id)
         {
             var item = repository.GetItem(id);
 
@@ -32,8 +33,8 @@ namespace Catalog.Controllers
             {
                 return NotFound();
             }
-            
-            return repository.GetItem(id);
+
+            return item.AsDto();
         }
     }
 }
