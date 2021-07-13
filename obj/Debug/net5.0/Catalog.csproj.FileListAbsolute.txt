@@ -27,3 +27,15 @@ C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\obj\Debug\net5.0\Cata
 C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\obj\Debug\net5.0\ref\Catalog.dll
 C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\obj\Debug\net5.0\Catalog.pdb
 C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\DnsClient.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
