@@ -39,3 +39,6 @@ C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runt
 C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Felipe\Desktop\LP\Studies\.NET Core 5 API\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
